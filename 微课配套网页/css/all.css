@@ -1,0 +1,348 @@
+@charset "utf-8";
+
+/* CSS Document */
+ul,
+li,
+h1,
+h2,
+h3,
+p {
+	padding: 0;
+	margin: 0;
+	list-style: none
+}
+
+a {
+	text-decoration: none;
+}
+
+
+body {
+	line-height: 21px;
+	width: 1000px;
+	background: #ccc;
+	margin: 0 auto
+}
+th,td{
+	padding-left: 10px;
+	border: 1px solid #ccc;
+}
+
+.clear {
+	clear: both
+}
+
+.menu li {
+	list-style: none
+}
+
+.logo {
+	width: 100%;
+	background:#fff;
+	
+}
+
+
+header { border-bottom:#999 solid 1px}
+.text a {
+	display: block;
+	line-height: 40px;
+	font-size: 16px;
+}
+
+.text span {
+	display: inline-block;
+	background-color: coral;
+
+	padding: 0 10px;
+	margin-top: 20px;
+}
+
+/* .text a:hover {} */
+
+.banner {
+	position: relative
+}
+
+.bar {
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 6px 0;
+	padding-left:20px;
+
+	color: #000;
+	font-size: 24px;
+	color:#CC0000;
+}
+
+.menu {
+	width: 100%;
+	float: left;
+	background:#fff;
+	background-size: auto 100%;
+}
+
+.menu li a {
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.menu li {
+	float: left;
+	padding: 15px 30px;
+	width: 190px;
+	text-align:center;
+}
+.menu li a:hover{ color:red}
+.right {
+	float: right;
+	width: 660px;
+	padding: 20px
+}
+
+.left {
+	min-height: 300px;
+	float: left;
+	width: 260px;
+	background: #E2DBD6;
+	padding: 20px
+}
+
+.content {
+	color: #000;
+	clear: both;
+	padding-bottom: 30px;
+	width: 1000px;
+	margin: 0 auto;
+	background: #f2f2f2;
+	font-size: 14px;
+}
+
+.end {
+	clear: both;
+	color: #fff;
+	padding: 30px 0;
+	text-align: center;
+	background:#993333;
+	background-size: auto 100%;
+}
+
+.produce img {
+	float: left;
+	margin: 20px
+}
+
+.pad {
+	padding: 20px ;
+	display: block
+}
+
+.pics p {
+	margin: 20px;
+	text-align: center
+}
+
+.imglist {
+	clear: both;
+	padding:15px
+}
+
+.imglist li img {
+	width: 100%;
+	display:block;
+
+	
+	height: 200px;transition: all 0.6s;
+	object-fit: cover;
+}
+.imglist li p{ display:block; overflow:hidden}
+.imglist li {
+	float: left;	border-radius:11px; overflow:hidden;
+	width: 31.33%;
+	margin-bottom: 10px;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 0px 0px 11px #888888;
+}
+.imglist li:hover img{transform: scale(1.2);}
+.fr {
+	float: right
+}
+
+.news li {
+	
+	background:#FFFFFF;
+	padding: 5px 0px;
+	box-shadow: 0px 0px 11px #ccc;	border-radius:11px; overflow:hidden;
+	width:47%;
+	float:left;
+	margin:1.5%
+}
+
+.news li>img {
+	float: left; width:200px;
+	margin-right: 40px;
+	object-fit: contain;
+
+}
+
+.news li dl {
+	padding-top: 40px;
+}
+
+.news li dl dt {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.title {
+	text-align: center;
+	color: #F00;
+	padding: 10px
+}
+
+.fl {
+	float: left
+}
+
+.mid {
+	margin: 0 auto;
+	width: 1000px
+}
+
+.msg>div {
+	padding: 10px
+}
+
+.banner {
+	width: 1000px;
+}
+
+.text-center {
+	text-align: center
+}
+
+.inr {
+	float: right;
+	width: 720px;
+	line-height: 30px;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.inl {
+	float: left;
+	width: 240px;
+	margin-left: 15px;
+}
+
+.produce {
+	width: 36%;
+	float: left
+}
+
+.lianxi {
+	margin: 20px;
+	width: 60%;
+	float: right
+}
+
+.lianxi p {
+	margin: 10px 0
+}
+
+.feedback {
+	float: right;
+	margin-right: 20px;
+	border:#FF9933 solid 2px;
+	padding:50px;
+	background:#fff;
+}
+
+.feedback input {
+	width: 300px;
+	background: #fff;
+
+	border: 1px solid #ccc;
+	line-height: 30px;
+	height: 30px;
+	font-size: 16px;
+}
+
+.feedback textarea {
+	width: 300px;
+	height: 130px;
+	background: #fff;
+
+	border: 1px solid #ccc;
+	font-size: 16px
+}
+
+.feedback button {
+	background: #CC6633;
+	width: 305px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	border: 1px solid #426289;
+
+	font-size: 16px;
+	margin-left: 42px
+}
+
+.feedback2 {
+	float: right;
+}
+
+.feedback2 li img {
+	border-radius: 5px;
+	margin-right: 50px
+}
+
+.hei10 {
+	height: 10px
+}
+
+.right1 {
+	float: left;
+	margin-right: 20px
+}
+
+audio {
+	position: fixed;
+	left: -1000px;
+}
+
+.index {
+	font-size: 20px;
+	margin: auto;
+	width: 600px;
+	background-color: white;
+	margin-top: 10px;
+}
+ 
+.biaoti {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.biaodan {
+	padding-left: 50px;
+	line-height:100%;
+}
+ 
+#tijiao{
+	width: 200px;
+	height: 50px;
+	font-size: 30px;
+	color:whitesmoke;
+	background-color:#3366CC;
+    margin-left: 150PX;
+	margin-top: 16PX;
+	margin-bottom: 20PX;
+	border-radius: 6px;
+}
